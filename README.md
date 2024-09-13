@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> c7d616a (Adiciona instruções para tornar polkafetch executável globalmente)
 # README.md
 
 
@@ -57,9 +61,18 @@ Agora que o script é executável, você pode rodá-lo com o seguinte comando:
 ./polkafetch.sh
 ```
 
+Para poder executar o polkafetch apenas digitando polkafetch no terminal, é necessário adicionar o script ao /usr/local/bin ou um diretório similar que esteja no seu PATH. 
+
+```bash
+sudo cp polkafetch.sh /usr/local/bin/polkafetch
+```
+Agora o script poderá ser executado digitando apenas:
+```bash
+polkafetch
+```
 ### 5. Resultado
 
-Ao executar o **polkafetch.sh**, você verá informações detalhadas sobre o seu sistema, incluindo o usuário, distribuição Linux, uptime, CPU, GPU, memória, além de informações sobre a Polkadot (DOT), como o preço atual e suas variações em 1 hora, 24 horas, 7 dias, 30 dias e 1 ano.
+Ao executar o **polkafetch**, você verá informações detalhadas sobre o seu sistema, incluindo o usuário, distribuição Linux, uptime, CPU, GPU, memória, além de informações sobre a Polkadot (DOT), como o preço atual e suas variações em 1 hora, 24 horas, 7 dias, 30 dias e 1 ano.
 
 ---
 
@@ -72,3 +85,6 @@ Melhorias sugeridas:
 -  Info relevante disponível em https://polkadot.subscan.io/
 
 
+=======
+
+(Adiciona instruções para tornar polkafetch executável globalmente)
