@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-
->>>>>>> c7d616a (Adiciona instruções para tornar polkafetch executável globalmente)
 # README.md
 
 
