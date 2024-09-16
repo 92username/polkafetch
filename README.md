@@ -6,7 +6,7 @@
 
 O **Polkafetch** é um script personalizado baseado no Neofetch que exibe informações do sistema e dados da **Polkadot (DOT)**, incluindo o preço atual e suas variações.
 
-![Imagem do polkafetch](/home/nbx/Pictures/printpolkafetch.png)
+![Imagem do polkafetch](/home/nbx/Desktop/Learn/github/polkafetch/)
 
 ## Pré-requisitos
 
