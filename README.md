@@ -81,8 +81,3 @@ Melhorias sugeridas:
 -  Arte ASCII em cores
 -  Alinhar info da Polkadot à direita, abaixo das info do sistema
 -  Info relevante disponível em https://polkadot.subscan.io/
-
-
-=======
-
-(Adiciona instruções para tornar polkafetch executável globalmente)
