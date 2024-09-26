@@ -4,17 +4,19 @@
 
 # Polkafetch
 
-O **Polkafetch** é um script personalizado baseado no Neofetch que exibe informações do sistema e dados da **Polkadot (DOT)**, incluindo o preço atual e suas variações.
+Polkafetch is a custom script based on Neofetch that displays system information and Polkadot (DOT) data, including the current price and its variations.
 
 ![Imagem do polkafetch](printpolkafetch.png)
 
-## Pré-requisitos
+## Prerequisites
 
-Antes de utilizar o script, certifique-se de que você tenha o seguinte instalado no seu sistema:
+Before using the script, ensure that you have the following installed on your system:
 
-- **Bash** (normalmente já vem instalado em sistemas Linux)
-- **Curl** (para realizar requisições HTTP)
-- **JQ** (para manipular JSON retornado pela API da CoinGecko)
+  - Bash (usually pre-installed on Linux systems)
+  - Curl (to make HTTP requests)
+  - JQ (to manipulate JSON returned by the CoinGecko API)
+
+To install curl and jq, use the following commands:
 
 Para instalar o `curl` e o `jq`, use os seguintes comandos:
 
@@ -23,61 +25,58 @@ sudo apt update
 sudo apt install curl jq
 ```
 
-## Como utilizar o Polkafetch
+## How to Use Polkafetch
 
-Siga os passos abaixo para baixar, configurar e executar o Polkafetch:
+Follow the steps below to download, configure, and run Polkafetch:
+1. Clone the Repository
 
-### 1. Clonar o repositório
-
-Primeiro, clone este repositório para o seu diretório local usando o Git:
+First, clone this repository to your local directory using Git:
 
 ```bash
 git clone https://github.com/92username/polkafetch.git
 ```
 
-### 2. Navegar para o diretório do Polkafetch
+### 2. Navigate to the Polkafetch Directory
 
-Acesse o diretório onde o script **polkafetch.sh** foi baixado:
+Access the directory where the polkafetch.sh script was downloaded:
 
 ```bash
 cd polkafetch
 ```
 
-### 3. Tornar o script executável
+### 3. Make the Script Executable
 
-Para que o script **polkafetch.sh** possa ser executado, você precisa garantir que ele tenha permissões de execução. Para isso, utilize o seguinte comando:
+To execute the polkafetch.sh script, you need to ensure it has execution permissions. Use the following command:
 
 ```bash
 chmod +x polkafetch.sh
 ```
 
-### 4. Executar o script
+### 4. Run the Script
 
-Agora que o script é executável, você pode rodá-lo com o seguinte comando:
+Now that the script is executable, you can run it with the following command:
 
-```bash
+```
 ./polkafetch.sh
 ```
 
-Para poder executar o polkafetch apenas digitando polkafetch no terminal, é necessário adicionar o script ao /usr/local/bin ou um diretório similar que esteja no seu PATH. 
+To run Polkafetch by simply typing polkafetch in the terminal, you need to copy the script to /usr/local/bin or a similar directory that is in your PATH.
 
-```bash
+```
 sudo cp polkafetch.sh /usr/local/bin/polkafetch
 ```
-Agora o script poderá ser executado digitando apenas:
+Now you can execute the script by simply typing:
 ```bash
 polkafetch
 ```
-### 5. Resultado
+### 5. Output
 
-Ao executar o **polkafetch**, você verá informações detalhadas sobre o seu sistema, incluindo o usuário, distribuição Linux, uptime, CPU, GPU, memória, além de informações sobre a Polkadot (DOT), como o preço atual e suas variações em 1 hora, 24 horas, 7 dias, 30 dias e 1 ano.
+When you run polkafetch, you will see detailed information about your system, including the user, Linux distribution, uptime, CPU, GPU, memory, as well as information about Polkadot (DOT), such as the current price and its variations over 1 hour, 24 hours, 7 days, 30 days, and 1 year.
 
 ---
 
-## Contribuição
+## Contribution
 
-Se você deseja contribuir com melhorias, sinta-se à vontade para abrir um Pull Request ou sugerir alterações através de Issues.
-Melhorias sugeridas:  
--  Arte ASCII em cores
--  Alinhar info da Polkadot à direita, abaixo das info do sistema
--  Info relevante disponível em https://polkadot.subscan.io/
+Contribution
+
+If you would like to contribute with improvements, feel free to open a Pull Request or suggest changes through Issues. 
