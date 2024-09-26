@@ -4,7 +4,7 @@
 
 # Polkafetch
 
-Polkafetch is a custom script based on Neofetch that displays system information and Polkadot (DOT) data, including the current price and its variations.
+´polkafetch` is a custom script based on neofetch that displays system information and Polkadot (DOT) data, including the current price and its variations.
 
 ![Imagem do polkafetch](printpolkafetch.png)
 
@@ -60,7 +60,7 @@ Now that the script is executable, you can run it with the following command:
 ./polkafetch.sh
 ```
 
-To run Polkafetch by simply typing polkafetch in the terminal, you need to copy the script to /usr/local/bin or a similar directory that is in your PATH.
+To run Polkafetch by simply typing `polkafetch` in the terminal, you need to copy the script to /usr/local/bin or a similar directory that is in your PATH.
 
 ```
 sudo cp polkafetch.sh /usr/local/bin/polkafetch
@@ -69,9 +69,18 @@ Now you can execute the script by simply typing:
 ```bash
 polkafetch
 ```
-### 5. Output
 
-When you run polkafetch, you will see detailed information about your system, including the user, Linux distribution, uptime, CPU, GPU, memory, as well as information about Polkadot (DOT), such as the current price and its variations over 1 hour, 24 hours, 7 days, 30 days, and 1 year.
+### 5. Features
+  - System Information: Displays detailed information about your system, including the user, Linux distribution, uptime, CPU, GPU, and memory.
+  - Polkadot (DOT) Data: Fetches real-time Polkadot (DOT) cryptocurrency information such as current price and variations over 1 hour, 24 hours, 7 days, 30 days, and 1 year.
+  - Customizable Display: Provides options to easily customize the display of system and cryptocurrency data.
+  - Lightweight and Fast: Executes quickly and efficiently, making it ideal for users who want a simple yet informative system monitor.
+
+
+
+### 6. Output
+
+When you run `polkafetch`, you will see detailed information about your system, including the user, Linux distribution, uptime, CPU, GPU, memory, as well as information about Polkadot (DOT), such as the current price and its variations over 1 hour, 24 hours, 7 days, 30 days, and 1 year.
 
 ---
 
